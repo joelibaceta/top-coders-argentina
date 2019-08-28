@@ -59,7 +59,7 @@ module Jekyll
 
                 sleep(30)
 
-                uri = URI.parse("https://api.github.com/search/users?q=location:lima followers:>10&per_page=30&page=#{i}&sort=followers&order=desc&#{authorization_string}")
+                uri = URI.parse("https://api.github.com/search/users?q=location:argentina followers:>10&per_page=30&page=#{i}&sort=followers&order=desc&#{authorization_string}")
                 
                 response = Net::HTTP.get_response(uri)
                 users = JSON.parse(response.body)
