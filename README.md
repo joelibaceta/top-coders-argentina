@@ -1,7 +1,7 @@
 # Top Coders Argentina
 Based on Github Stats
 
-[![CodeCogsEqn.svg](images/demo.png)](http://joelibaceta.github.io/top-coders-argentina/)
+[![CodeCogsEqn.svg](images/demoArgentina.png)](http://joelibaceta.github.io/top-coders-argentina/)
 
 <br/>
 
